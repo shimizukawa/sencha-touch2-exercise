@@ -1,0 +1,18 @@
+^.*/.installed.cfg
+.*.pyc
+.*.swp
+.*.orig
+^.*/_?build$
+^.*/develop-eggs$
+^.*/_?dist/.*$
+^.*/eggs/.*$
+^.*/parts/.*$
+.*.egg-info
+logs/.*\.log
+\.virtualenv
+\.idea
+\.git
+\.DS_Store
+
+syntax: glob
+*.diff
