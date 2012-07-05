@@ -2,10 +2,15 @@ Ext.application({
     name: 'Connpass',
 
     requires: [
-        'Ext.MessageBox'
+        'Ext.MessageBox',
+        'Connpass.controller.Main',
+        'Connpass.view.Main',
+        'Connpass.store.RecentEvents'
     ],
 
+    controllers: ['Main'],
     views: ['Main'],
+    stores: ['RecentEvents'],
 
     icon: {
         '57': 'resources/icons/Icon.png',
